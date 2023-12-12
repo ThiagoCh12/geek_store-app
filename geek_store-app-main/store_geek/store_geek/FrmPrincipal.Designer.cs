@@ -88,7 +88,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(44, 192);
+            this.label2.Location = new System.Drawing.Point(212, 192);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 16);
             this.label2.TabIndex = 17;
@@ -98,7 +98,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(214, 192);
+            this.label1.Location = new System.Drawing.Point(47, 192);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(63, 16);
             this.label1.TabIndex = 16;
@@ -129,23 +129,20 @@
             // clientesToolStripMenuItem
             // 
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.clientesToolStripMenuItem.Text = "Clientes";
-            this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
             // 
             // produtosToolStripMenuItem
             // 
             this.produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
-            this.produtosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.produtosToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.produtosToolStripMenuItem.Text = "Produtos";
-            this.produtosToolStripMenuItem.Click += new System.EventHandler(this.produtosToolStripMenuItem_Click);
             // 
             // tipoDoProdutoToolStripMenuItem
             // 
             this.tipoDoProdutoToolStripMenuItem.Name = "tipoDoProdutoToolStripMenuItem";
-            this.tipoDoProdutoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tipoDoProdutoToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.tipoDoProdutoToolStripMenuItem.Text = "Tipo do produto";
-            this.tipoDoProdutoToolStripMenuItem.Click += new System.EventHandler(this.tipoDoProdutoToolStripMenuItem_Click);
             // 
             // vendasToolStripMenuItem
             // 
@@ -158,16 +155,14 @@
             // vendaToolStripMenuItem
             // 
             this.vendaToolStripMenuItem.Name = "vendaToolStripMenuItem";
-            this.vendaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.vendaToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
             this.vendaToolStripMenuItem.Text = "Venda";
-            this.vendaToolStripMenuItem.Click += new System.EventHandler(this.vendaToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
             this.sairToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.sairToolStripMenuItem.Text = "Sair";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // pbxSair
             // 
@@ -178,7 +173,6 @@
             this.pbxSair.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxSair.TabIndex = 14;
             this.pbxSair.TabStop = false;
-            this.pbxSair.Click += new System.EventHandler(this.pbxSair_Click);
             // 
             // pbxVendas
             // 
@@ -189,18 +183,16 @@
             this.pbxVendas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxVendas.TabIndex = 12;
             this.pbxVendas.TabStop = false;
-            this.pbxVendas.Click += new System.EventHandler(this.pbxVendas_Click);
             // 
             // pbxClientes
             // 
-            this.pbxClientes.Image = global::store_geek.Properties.Resources.client;
+            this.pbxClientes.Image = global::store_geek.Properties.Resources.produto;
             this.pbxClientes.Location = new System.Drawing.Point(175, 55);
             this.pbxClientes.Name = "pbxClientes";
             this.pbxClientes.Size = new System.Drawing.Size(137, 134);
             this.pbxClientes.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxClientes.TabIndex = 13;
             this.pbxClientes.TabStop = false;
-            this.pbxClientes.Click += new System.EventHandler(this.pbxClientes_Click);
             // 
             // pbxTipoProduto
             // 
@@ -211,24 +203,21 @@
             this.pbxTipoProduto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxTipoProduto.TabIndex = 11;
             this.pbxTipoProduto.TabStop = false;
-            this.pbxTipoProduto.Click += new System.EventHandler(this.pbxTipoProduto_Click);
             // 
             // pbxProdutos
             // 
-            this.pbxProdutos.Image = global::store_geek.Properties.Resources.produto;
+            this.pbxProdutos.Image = global::store_geek.Properties.Resources.client;
             this.pbxProdutos.Location = new System.Drawing.Point(12, 55);
             this.pbxProdutos.Name = "pbxProdutos";
             this.pbxProdutos.Size = new System.Drawing.Size(137, 134);
             this.pbxProdutos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbxProdutos.TabIndex = 10;
             this.pbxProdutos.TabStop = false;
-            this.pbxProdutos.Click += new System.EventHandler(this.pbxProdutos_Click);
             // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
