@@ -23,7 +23,7 @@ namespace store_geek
 
         private void btnFechar_Click(object sender, EventArgs e)
         {
-            Environment.Exit(0);
+            this.Close();
         }
         public void CarregaCbxCliente()
         {
@@ -128,7 +128,7 @@ namespace store_geek
                         btnNovoItem.Enabled = true;
                         btnEditarItem.Enabled = true;
                         btnExcluirItem.Enabled = true;
-                        dgvPedido.Columns.Add("ID", "ID");
+                        dgvPedido.Columns.Add("Id", "Id");
                         dgvPedido.Columns.Add("Produto", "Produto");
                         dgvPedido.Columns.Add("Quantidade", "Quantidade");
                         dgvPedido.Columns.Add("Valor", "Valor");
@@ -171,7 +171,7 @@ namespace store_geek
                         btnExcluirItem.Enabled = true;
                         btnFinalizarPedido.Enabled = true;
                         btnAtualizarPedido.Enabled = true;
-                        dgvPedido.Columns.Add("ID", "ID");
+                        dgvPedido.Columns.Add("Id", "Id");
                         dgvPedido.Columns.Add("Produto", "Produto");
                         dgvPedido.Columns.Add("Quantidade", "Quantidade");
                         dgvPedido.Columns.Add("Valor", "Valor");

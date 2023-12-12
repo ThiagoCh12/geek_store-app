@@ -129,21 +129,21 @@
             // clientesToolStripMenuItem
             // 
             this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.clientesToolStripMenuItem.Text = "Clientes";
             this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
             // 
             // produtosToolStripMenuItem
             // 
             this.produtosToolStripMenuItem.Name = "produtosToolStripMenuItem";
-            this.produtosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.produtosToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.produtosToolStripMenuItem.Text = "Produtos";
             this.produtosToolStripMenuItem.Click += new System.EventHandler(this.produtosToolStripMenuItem_Click);
             // 
             // tipoDoProdutoToolStripMenuItem
             // 
             this.tipoDoProdutoToolStripMenuItem.Name = "tipoDoProdutoToolStripMenuItem";
-            this.tipoDoProdutoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tipoDoProdutoToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.tipoDoProdutoToolStripMenuItem.Text = "Tipo do produto";
             this.tipoDoProdutoToolStripMenuItem.Click += new System.EventHandler(this.tipoDoProdutoToolStripMenuItem_Click);
             // 
@@ -158,7 +158,7 @@
             // vendaToolStripMenuItem
             // 
             this.vendaToolStripMenuItem.Name = "vendaToolStripMenuItem";
-            this.vendaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.vendaToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
             this.vendaToolStripMenuItem.Text = "Venda";
             this.vendaToolStripMenuItem.Click += new System.EventHandler(this.vendaToolStripMenuItem_Click);
             // 
@@ -242,7 +242,7 @@
             this.Controls.Add(this.pbxProdutos);
             this.Controls.Add(this.menuStrip1);
             this.Name = "FrmPrincipal";
-            this.Text = "FrmPrincipal";
+            this.Text = "Principal";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbxSair)).EndInit();

@@ -53,15 +53,15 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "DESENVOLVEDOR: Thiago Chagas TDS10";
             // 
-            // Splash
+            // FrmSplash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Splash";
-            this.Text = "Splash";
+            this.Name = "FrmSplash";
+            this.Text = " ";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

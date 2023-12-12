@@ -74,7 +74,7 @@
             // 
             // btnExcluir
             // 
-            this.btnExcluir.BackColor = System.Drawing.Color.Maroon;
+            this.btnExcluir.BackColor = System.Drawing.Color.OrangeRed;
             this.btnExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExcluir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExcluir.ForeColor = System.Drawing.Color.White;
@@ -89,7 +89,7 @@
             // 
             // btnEditar
             // 
-            this.btnEditar.BackColor = System.Drawing.Color.Brown;
+            this.btnEditar.BackColor = System.Drawing.Color.Gold;
             this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditar.ForeColor = System.Drawing.Color.White;
@@ -157,7 +157,7 @@
             // 
             // btnInserir
             // 
-            this.btnInserir.BackColor = System.Drawing.Color.SteelBlue;
+            this.btnInserir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnInserir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInserir.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInserir.ForeColor = System.Drawing.Color.White;
@@ -186,7 +186,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnInserir);
             this.Name = "FrmTipoProduto";
-            this.Text = "FrmTipoProduto";
+            this.Text = "TipoProduto";
             this.Load += new System.EventHandler(this.FrmTipoProduto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTipoProduto)).EndInit();
             this.ResumeLayout(false);

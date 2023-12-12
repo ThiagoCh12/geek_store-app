@@ -102,7 +102,7 @@
             // 
             // btnNovoPedido
             // 
-            this.btnNovoPedido.BackColor = System.Drawing.Color.Lime;
+            this.btnNovoPedido.BackColor = System.Drawing.Color.Turquoise;
             this.btnNovoPedido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNovoPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNovoPedido.Location = new System.Drawing.Point(649, 25);
@@ -115,7 +115,7 @@
             // 
             // btnAtualizarPedido
             // 
-            this.btnAtualizarPedido.BackColor = System.Drawing.Color.Aqua;
+            this.btnAtualizarPedido.BackColor = System.Drawing.Color.MediumSpringGreen;
             this.btnAtualizarPedido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAtualizarPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAtualizarPedido.Location = new System.Drawing.Point(649, 66);
@@ -141,7 +141,7 @@
             // 
             // btnExcluirItem
             // 
-            this.btnExcluirItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnExcluirItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnExcluirItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExcluirItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExcluirItem.Location = new System.Drawing.Point(269, 232);
@@ -154,7 +154,7 @@
             // 
             // btnEditarItem
             // 
-            this.btnEditarItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.btnEditarItem.BackColor = System.Drawing.Color.Gold;
             this.btnEditarItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditarItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEditarItem.Location = new System.Drawing.Point(269, 191);
@@ -318,7 +318,7 @@
             // 
             // btnLocalizar
             // 
-            this.btnLocalizar.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.btnLocalizar.BackColor = System.Drawing.Color.DarkCyan;
             this.btnLocalizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLocalizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLocalizar.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -334,6 +334,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.RosyBrown;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.label9);
@@ -362,7 +363,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnLocalizar);
             this.Name = "FrmVenda";
-            this.Text = "FrmVenda";
+            this.Text = "Venda";
             this.Load += new System.EventHandler(this.FrmVenda_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvPedido)).EndInit();
             this.ResumeLayout(false);
